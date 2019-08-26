@@ -1,0 +1,125 @@
+body *{
+    box-sizing: border-box;
+    font-size:18px;
+    
+}
+
+html {
+    margin-left: 0px, 0px;
+    margin-right: 0px, 0px;
+}
+
+h1 {
+    margin-left: 0px 0px;
+}
+
+main {
+    top:120px;
+    max-width: 1000px;
+    position: relative;
+    padding-left:90px;
+    padding-right:90px;
+    color:white;
+    margin-right:auto;
+    margin-left:auto;
+}
+.backdrop {
+top:0px;
+position: fixed;  
+display: flex;
+justify-content: flex-start;  
+background-color: yellowgreen;
+font-size:34px;
+width:100%;
+margin-left:0px, 0px;
+margin-right:0px, 0px;
+padding-left: none;
+}
+
+.hamburger {
+    color:white;
+    opacity:1px;
+    background: yellowgreen;
+}
+
+button {
+    background-color: yellowgreen;
+}
+.site-nav {
+   position: absolute; 
+   display: inline-block;
+}
+
+
+
+.nav-item {
+    list-style:none;
+}
+
+a {
+    text-decoration:none;
+    color:white;
+    padding:5px;
+}
+.site-nav {
+    position: fixed;
+    left:75%;
+    top:20px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:purple;
+    display: inline-block;
+}
+body{
+    background-color : sandybrown;
+    margin-left:0px;
+    margin-top:0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+h1{
+    color:white;
+    font-size:24px;
+}
+.embed {
+    color:palevioletred;
+}
+
+.link-item {
+    color: black;
+    font-size: 24px;
+}
+
+
+.medium {
+    width:300px;
+}
+
+.left , .right {
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.left {
+    float:left;
+    margin-right:15px;
+}
+
+.right {
+    float:right;
+    margin-left:15px;
+}
+
+.video {
+    width:300px;
+    padding-left:none;
+    padding-right:none;
+    margin-left:auto;
+    margin-right:15px;
+    margin-top:15px;
+    margin-bottom:15px;
+    float:left;
+}
